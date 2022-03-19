@@ -42,12 +42,32 @@
         margin: 10px;
       }
 
+      .container {
+        max-width: 550px;
+        margin: auto;
+      }
+
+      .logo {
+        display: block;
+        margin: auto;
+        width: fit-content;
+      }
+
       .main {
         background-color: #ffffff;
         padding: 48px 12px;
-        max-width: 550px;
-        margin: auto;
         box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .copyright {
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .copyright a {
+        text-decoration: none;
+        color: inherit;
+        font-size: inherit;
       }
 
       .invoiceTable {
@@ -97,116 +117,146 @@
   </head>
 
   <body>
-    <table class="main" width="100%">
-      <tr>
-        <td>Hello! Techtiary</td>
-      </tr>
-
-      <tr class="spacer"></tr>
-
-      <tr>
-        <td>Here’s your business weekly report.</td>
-      </tr>
-
-      <tr class="spacer"></tr>
-
+    <table class="container">
       <tr>
         <td>
-          <table class="invoiceTable pending">
-            <tr>
-              <td class="title">Pending Invoice</td>
-            </tr>
-            <tr>
-              <td>
-                <table>
-                  <tr>
-                    <td>Invoice count:</td>
-                    <td>20</td>
-                  </tr>
-
-                  <tr class="innerSpacer"></tr>
-
-                  <tr>
-                    <td>Amount:</td>
-                    <td>N200,000</td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <table class="invoiceTable unpaid">
-            <tr>
-              <td class="title">Unpaid Invoice</td>
-            </tr>
-            <tr>
-              <td>
-                <table>
-                  <tr>
-                    <td>Invoice count:</td>
-                    <td>20</td>
-                  </tr>
-
-                  <tr class="innerSpacer"></tr>
-
-                  <tr>
-                    <td>Amount:</td>
-                    <td>N200,000</td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <table class="invoiceTable paid">
-            <tr>
-              <td class="title">Paid Invoice</td>
-            </tr>
-            <tr>
-              <td>
-                <table>
-                  <tr>
-                    <td>Invoice count:</td>
-                    <td>20</td>
-                  </tr>
-
-                  <tr class="innerSpacer"></tr>
-
-                  <tr>
-                    <td>Amount:</td>
-                    <td>N200,000</td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
+          <a class="logo" href="https://dashboard.sanwo.io" target="_blank">
+            <img
+              src="https://i.ibb.co/wcg4grH/logo-admin.png"
+              alt="Sanwo Logo"
+            />
+          </a>
         </td>
       </tr>
 
       <tr class="spacer"></tr>
 
       <tr>
-        <td>We are committed to helping you grow your business on Sanwo.</td>
+        <td>
+          <table class="main" width="100%">
+            <tr>
+              <td>Hello! Techtiary</td>
+            </tr>
+
+            <tr class="spacer"></tr>
+
+            <tr>
+              <td>Here’s your business weekly report.</td>
+            </tr>
+
+            <tr class="spacer"></tr>
+
+            <tr>
+              <td>
+                <table class="invoiceTable pending">
+                  <tr>
+                    <td class="title">Pending Invoice</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table>
+                        <tr>
+                          <td>Invoice count:</td>
+                          <td>20</td>
+                        </tr>
+
+                        <tr class="innerSpacer"></tr>
+
+                        <tr>
+                          <td>Amount:</td>
+                          <td>N200,000</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table class="invoiceTable unpaid">
+                  <tr>
+                    <td class="title">Unpaid Invoice</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table>
+                        <tr>
+                          <td>Invoice count:</td>
+                          <td>20</td>
+                        </tr>
+
+                        <tr class="innerSpacer"></tr>
+
+                        <tr>
+                          <td>Amount:</td>
+                          <td>N200,000</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table class="invoiceTable paid">
+                  <tr>
+                    <td class="title">Paid Invoice</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table>
+                        <tr>
+                          <td>Invoice count:</td>
+                          <td>20</td>
+                        </tr>
+
+                        <tr class="innerSpacer"></tr>
+
+                        <tr>
+                          <td>Amount:</td>
+                          <td>N200,000</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr class="spacer"></tr>
+
+            <tr>
+              <td>
+                We are committed to helping you grow your business on Sanwo.
+              </td>
+            </tr>
+
+            <tr class="spacer"></tr>
+
+            <tr>
+              <td>Cheers to another successful business week.</td>
+            </tr>
+
+            <tr class="spacer"></tr>
+
+            <tr>
+              <td>The Sanwo Team.</td>
+            </tr>
+          </table>
+        </td>
       </tr>
 
       <tr class="spacer"></tr>
 
       <tr>
-        <td>Cheers to another successful business week.</td>
-      </tr>
-
-      <tr class="spacer"></tr>
-
-      <tr>
-        <td>The Sanwo Team.</td>
+        <td class="copyright">
+          &copy; 2022 <a href="https://sanwo.io" target="_blank">Sanwo.io</a>.
+          All rights reserved.
+        </td>
       </tr>
     </table>
   </body>
