@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanwo Weekly Report | Email Template</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+
+      body {
+        background-color: #edf2f7;
+        color: #333333;
+        padding: 100px 10px;
+      }
+
+      table {
+        width: 100%;
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      .spacer {
+        display: block;
+        margin: 20px;
+      }
+
+      .innerSpacer {
+        display: block;
+        margin: 10px;
+      }
+
+      .main {
+        background-color: #ffffff;
+        padding: 48px 12px;
+        max-width: 550px;
+        margin: auto;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .invoiceTable {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding: 12px;
+      }
+
+      .invoiceTable table {
+        border-radius: 12px;
+        padding: 12px;
+        margin-top: 10px;
+        background-color: #ffffff;
+      }
+
+      .invoiceTable table tr > td:last-child {
+        text-align: right;
+      }
+
+      .pending {
+        background-color: #fff7ee;
+      }
+
+      .pending .title,
+      .pending table td:last-child {
+        color: #ff8a00;
+      }
+
+      .unpaid {
+        background-color: #ffeeee;
+      }
+
+      .unpaid .title,
+      .unpaid table td:last-child {
+        color: #ff0000;
+      }
+
+      .paid {
+        background-color: #eefff3;
+      }
+
+      .paid .title,
+      .paid table td:last-child {
+        color: #19b500;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table class="main" width="100%">
+      <tr>
+        <td>Hello! Techtiary</td>
+      </tr>
+
+      <tr class="spacer"></tr>
+
+      <tr>
+        <td>Here’s your business weekly report.</td>
+      </tr>
+
+      <tr class="spacer"></tr>
+
+      <tr>
+        <td>
+          <table class="invoiceTable pending">
+            <tr>
+              <td class="title">Pending Invoice</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>Invoice count:</td>
+                    <td>20</td>
+                  </tr>
+
+                  <tr class="innerSpacer"></tr>
+
+                  <tr>
+                    <td>Amount:</td>
+                    <td>N200,000</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table class="invoiceTable unpaid">
+            <tr>
+              <td class="title">Unpaid Invoice</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>Invoice count:</td>
+                    <td>20</td>
+                  </tr>
+
+                  <tr class="innerSpacer"></tr>
+
+                  <tr>
+                    <td>Amount:</td>
+                    <td>N200,000</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table class="invoiceTable paid">
+            <tr>
+              <td class="title">Paid Invoice</td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td>Invoice count:</td>
+                    <td>20</td>
+                  </tr>
+
+                  <tr class="innerSpacer"></tr>
+
+                  <tr>
+                    <td>Amount:</td>
+                    <td>N200,000</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr class="spacer"></tr>
+
+      <tr>
+        <td>We are committed to helping you grow your business on Sanwo.</td>
+      </tr>
+
+      <tr class="spacer"></tr>
+
+      <tr>
+        <td>Cheers to another successful business week.</td>
+      </tr>
+
+      <tr class="spacer"></tr>
+
+      <tr>
+        <td>The Sanwo Team.</td>
+      </tr>
+    </table>
+  </body>
+</html>
